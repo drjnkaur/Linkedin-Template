@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+#header{
+	width: 100%;
+	background-color: #283E4A;
+	height:50px;
+
+}
+#logo{
+	float: left;
+}
+#logo img{
+	margin-left: 100px;
+	margin-top:10px;
+}
+#login_form{
+	float: right;
+	margin-right: 150px;
+	margin-top: 8px;
+
+}
+#login_form td{
+	padding-right: 24px;
+}
+#data_l{
+	color: #757575;
+	padding: 7px;
+	border-radius: 2px;
+	width: 100%;
+	font-weight: bold;
+	border: 1px solid #B3B6B9;
+
+
+}
+#sign_in_button{
+
+	padding: 6px 20px;
+	color: white;
+	background-color: #283E4A;
+	border: 1px solid white;
+	border-radius: 2px;
+	font-size: 14px;
+}
+#sign_in_button:hover{
+	background-color: white;
+	color: black;
+}
+#forget_pass{
+	color: #CDCFD2;
+	font-size: 12px;
+
+}
+#forget_pass a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 13px;
+}
+.container{
+	height: auto;
+	width: 100%;
+	background-image: url('images/64xk850n3a8uzse6fi11l3vmz.jpg');
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+.form_upper{
+	margin: 0px auto;
+	background-color: white;
+	height: auto;
+	width: 400px;
+	border-bottom: 1px solid #C0C0C0;
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+.form_upper p{
+	text-align: center;
+
+
+}
+#be_great{
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 15px;
+
+}
+.form_lower{
+	background-color: #EDF0F3;
+	width: 352px;
+	height: auto;
+	padding: 18px 24px;
+	margin: 0px auto;
+}
+/** ques 2 if i give labels padding it doesn't work but if i give inputs margin it work ---- */
+.form_lower input{
+	width: 100%;
+	padding: 6px ;
+	margin:10px 0;
+}
+.form_lower label{
+	font-size: 14px;
+	padding:6px 0 8px 0;
+}
+.width{
+	border: 1px solid #C0C0C0;
+}
+#agree{
+	color: grey;
+	font-size: 12px;
+	padding: 0px 0px 16px 0px;
+}
+#join_now{
+	background-color: #0073B1;
+	color: white;
+	border: 1px solid #0073B1;
+	border-radius: 1px;
+}
+#footer{
+	background-color: #434649;
+	height: auto;
+	padding: 20px 0;
+/* if i make padding: 20px ; then we get some margin white space at right side of screen ???
+
+*/
+	width: 100%;
+	font-size: 15px;
+
+}
+#footer table{
+	color: white;
+	margin: 0 auto;
+
+}
+#footer td{
+	padding-right: 13px;
+}
+.search_width{
+	width: 100%;
+	padding: 6px 4px;
+	border-radius: 3px;
+	border:1px solid #434649;
+}
+.search_width:hover{
+	border: 1px solid black;
+}
+#search{
+	background-color: #434649;
+	color:grey;
+	border:1px solid grey;
+	border-radius: : 2px;
+	padding: 3px 12px;
+}
+.search{
+	padding:6px 9px;
+	background-color: #434649;
+	color: white;
+	border:1px solid #858789;
+	border-radius: 2px;
+}
+.search:hover{
+	border:2px solid white;
+	border-radius: 2px;
+}
